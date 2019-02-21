@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "costume_inventory"
     t.integer "number_of_employees"
     t.boolean "still_in_business"
-    t.datetime "open"
-    t.datetime "close"
+    t.datetime "opening_time"
+    t.datetime "closing_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

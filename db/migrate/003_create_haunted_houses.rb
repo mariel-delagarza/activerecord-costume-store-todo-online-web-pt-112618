@@ -11,6 +11,8 @@ class CreateHauntedHouses < ActiveRecord::Migration
       t.datetime :open
       t.datetime :close 
       t.text :long_description 
+      
+      t.timestamps null: false 
     end 
   end 
 end 
